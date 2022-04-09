@@ -60,7 +60,7 @@ class ViewController: UIViewController {
     }
 }
 ```
-Demo         
+Appearance         
 :-------------------------:
 <img src="example.png" height="800">
 
