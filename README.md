@@ -1,4 +1,7 @@
 # Custom-Alert-Dialog
+
+Custom view as you desire, then pass it through showAlertDialog.
+
 ```swift
 //
 //  ViewController.swift
@@ -28,7 +31,7 @@ class ViewController: UIViewController {
         showInfoPopup(text: "Custom Alert Dialog", view: webView)
     }
 
-    func showInfoPopup(text: String,
+    func showAlertDialog(text: String,
                        view: UIView) {
 
         let showAlert = UIAlertController(title: text, message: nil, preferredStyle: .alert)
