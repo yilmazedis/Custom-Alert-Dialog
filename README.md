@@ -28,7 +28,7 @@ class ViewController: UIViewController {
         webView.load(URLRequest(url: url))
         webView.allowsBackForwardNavigationGestures = true
 
-        showInfoPopup(text: "Custom Alert Dialog", view: webView)
+        showAlertDialog(text: "Custom Alert Dialog", view: webView)
     }
 
     func showAlertDialog(text: String,
