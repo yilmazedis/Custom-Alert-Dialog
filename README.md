@@ -30,6 +30,18 @@ class ViewController: UIViewController {
 
         showAlertDialog(text: "Custom Alert Dialog", view: webView)
     }
+    
+    /*func showAlertDialog(_ sender: UIButton) {
+
+        let subView = UIView()
+
+        let imageView = UIImageView(frame: subView.bounds)
+        imageView.image = UIImage(named: "batman")
+        imageView.autoresizingMask = [.flexibleHeight, .flexibleWidth]
+        subView.addSubview(imageView)
+
+        showAlertDialogView(text: "Custom Alert Dialog", view: subView)
+    }*/
 
     func showAlertDialog(text: String,
                        view: UIView) {
